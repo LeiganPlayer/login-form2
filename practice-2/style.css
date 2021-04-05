@@ -1,0 +1,95 @@
+
+@font-face {
+	font-family: Geosans;
+	src: url("GeosansLight.ttf");
+}
+* {
+	box-sizing: border-box;
+	font-family: Geosans, sans-serif;
+}
+
+html,body {
+	margin: 0px;
+	align-items: center;
+}
+
+#divcontainer{
+
+}
+
+.background{
+	background: url("back.gif");
+	width: 100vw;
+	height: 100vh;
+	/*background-color: #583ca3;*/
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.login{
+	background-color: hsla(228, 17%, 48%, 0.50);
+	/*background-color: #7d5cd6*/;
+	padding: 30px 20px;
+	min-width: 400px;
+	width: 50%;
+	max-width: 600px;
+	min-height: 300px;
+	height:	50%;
+	align-self: center;
+	border-radius: 25px;
+	border: 2px solid white;
+	
+}
+
+.welcome{
+	color: white;
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+.input{
+	font-size: 2em;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 15px;
+}
+
+.input input{
+	font-size: 23px;
+	color: black;
+	font-weight: bold;
+	padding: 6px 4px;
+	background-color: lightgrey;
+	border: 1px solid white;
+	border-radius: 8px;
+}
+
+.input input:focus {
+	border-radius: 5px;
+}
+
+.submit-button {
+	margin-left: 25%;
+	margin-top: 15px;
+	border: 1px solid white;
+	border-radius: 8px;
+	padding: 15px 30px;
+	width: 50%;
+	background-color: lightgrey;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: black;
+	cursor:pointer;
+}
+
+.submit-button:hover {
+	transform: /*translate(-500px) rotate(-45deg)*/ scale(1.1);
+}
+
+/*The translate was a joke*/
